@@ -19,9 +19,7 @@ class CodecLibraryBuilder extends GeneratorForAnnotation<JsonThemeCodec> {
   String _process(Element element, String codec) {
     final name = element.name;
     if (name == null) {
-      throw Exception(
-        'Annotation found on unnamed location, cannot continue.',
-      );
+      throw Exception('Annotation found on unnamed location, cannot continue.');
     }
 
     if (element is! ClassElement) {
