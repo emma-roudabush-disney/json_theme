@@ -64,6 +64,7 @@ build/
 **/ios/**/xcuserdata
 **/ios/.generated/
 **/ios/Flutter/App.framework
+**/ios/Flutter/ephemeral
 **/ios/Flutter/Flutter.framework
 **/ios/Flutter/Flutter.podspec
 **/ios/Flutter/Generated.xcconfig
